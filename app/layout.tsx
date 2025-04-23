@@ -18,7 +18,6 @@ const geistMono = Geist_Mono({
 
 export function generateMetadata() {
   return {
-    metadataBase: new URL("https://acme.com"),
     alternates: {
       canonical: "/",
       languages: {
